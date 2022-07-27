@@ -77,7 +77,7 @@ describe('AddProjectComponent', () => {
     });
   });
 
-  describe('business', () => {
+  describe('functional', () => {
     it("should submit form", () => {
       expect(component.projectForm.valid).toBeFalsy();
       component.projectForm.controls["project_name"].setValue("EComm");
