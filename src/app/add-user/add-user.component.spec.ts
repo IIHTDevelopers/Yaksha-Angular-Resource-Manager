@@ -120,7 +120,7 @@ describe('AddUserComponent', () => {
     });
   });
 
-  describe('business', () => {
+  describe('functional', () => {
     it("should submit form", () => {
       expect(component.userForm.valid).toBeFalsy();
       component.userForm.controls["employee_name"].setValue("Ashok Kumar");
