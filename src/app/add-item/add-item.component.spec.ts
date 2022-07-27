@@ -92,7 +92,7 @@ describe('AddItemComponent', () => {
     });
   });
 
-  describe('business', () => {
+  describe('functional', () => {
     it("should submit form", () => {
       expect(component.itemsForm.valid).toBeFalsy();
       component.itemsForm.controls["item_name"].setValue("Laptop - Dell");
