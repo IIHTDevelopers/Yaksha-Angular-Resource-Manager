@@ -162,7 +162,7 @@ describe('AddAllocationComponent', () => {
     });
   });
 
-  describe('business', () => {
+  describe('functional', () => {
     it("should submit form", () => {
       expect(component.allocationForm.valid).toBeFalsy();
       component.allocationForm.controls["allocated_to"].setValue("Ashok Kumar");
