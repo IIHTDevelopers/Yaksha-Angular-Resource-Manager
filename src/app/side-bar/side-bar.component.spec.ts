@@ -24,11 +24,12 @@ describe('SideBarComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-
+  
   describe('boundary', () => {
+    it('should create', () => {
+      expect(component).toBeTruthy();
+    });
+    
     it('should have a title', () => {
       expect(component.title).toBe('Dashboard');
       // we are accessing "h1"
