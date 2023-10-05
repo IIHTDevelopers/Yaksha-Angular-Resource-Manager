@@ -25,11 +25,12 @@ describe('ItemsComponent', () => {
     component.ngOnInit();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-
+  
   describe('boundary', () => {
+    it('should create', () => {
+      expect(component).toBeTruthy();
+    });
+    
     it('should have a title', () => {
       expect(component.title).toBe('Manage Item');
       // we are accessing "h1"
