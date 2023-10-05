@@ -25,11 +25,12 @@ describe('AddProjectComponent', () => {
     component.ngOnInit();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-
+  
   describe('boundary', () => {
+    it('should create', () => {
+      expect(component).toBeTruthy();
+    });
+    
     it('form invalid when empty', () => {
       expect(component.projectForm.valid).toBeFalsy();
     });
