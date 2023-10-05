@@ -13,7 +13,9 @@ describe('AllocationService', () => {
     service = TestBed.inject(AllocationService);
   });
 
-  it('should be created', () => {
-    expect(service).toBeTruthy();
+  describe('functional', () => {
+    it('should be created', () => {
+      expect(service).toBeTruthy();
+    });
   });
 });
