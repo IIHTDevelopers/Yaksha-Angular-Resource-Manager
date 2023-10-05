@@ -26,11 +26,12 @@ describe('UsersComponent', () => {
     component.ngOnInit();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-
+  
   describe('boundary', () => {
+    it('should create', () => {
+      expect(component).toBeTruthy();
+    });
+    
     it('should have a title', () => {
       expect(component.title).toBe('Manage Employee');
       // we are accessing "h1"
